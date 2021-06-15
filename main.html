@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html class="html-base" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Main Page</title>
+    <meta name="description" content="A trash shop website">
+    <meta http-equiv="author" content="Domas Prokofjovas">
+    <meta name="keywords" content="html, css, web, design, practice, shop, trash">
+    <link rel="stylesheet" href="CSS/mainCSS.css">
+</head>
+<body class="site-Body">
+    <header class="top-bar">
+        <div class="centering-Of-Things" role="menubar">
+            <h1>Home...</h1>
+            <p>Posted by Joe</p>
+            <p>_and Some additional information here</p>    
+        </div>
+    </header>
+    <div class="vessel">
+        <h1 id="shop-name">Electronic Part Shop</h1>
+        <p id="para" name="purpose" content="This can be an introduction to the website, currently just some lorem ipsum text.">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ornare suspendisse sed nisi lacus sed viverra tellus. Purus sit amet volutpat consequat. 
+            Quam lacus suspendisse faucibus interdum posuere lorem. 
+            Urna id volutpat lacus laoreet non curabitur gravida. Mauris commodo quis imperdiet massa tincidunt. 
+            Et ultrices neque ornare aenean euismod elementum nisi quis eleifend. Aliquet risus feugiat in ante metus dictum.
+            A pellentesque sit amet porttitor eget dolor morbi. Tortor posuere ac ut consequat semper viverra nam libero justo. 
+            Habitasse platea dictumst quisque sagittis purus. Sed elementum tempus egestas sed sed risus pretium quam vulputate. 
+            Feugiat nibh sed pulvinar proin gravida hendrerit. Cras sed felis eget velit aliquet sagittis id consectetur. 
+            Urna nunc id cursus metus aliquam eleifend mi in nulla. Varius duis at consectetur lorem donec massa. Nullam eget felis eget nunc. 
+            Ac auctor augue mauris augue neque gravida in fermentum. Hendrerit dolor magna eget est lorem ipsum dolor sit. 
+            Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien.<p>
+        <div class= shop-grid>
+            <aside>
+                <form class="form-center-text">
+                    <div class="fix-text-div-title">Type of Part</div>
+                    <ul class="ul-text-fix">
+                        <li>
+                            <label for="Processor" class="categories">
+                                <input type="checkbox" id= "Processor">
+                                <span class="checkbox"></span>
+                                <span>
+                                    Processors
+                                </span>
+                            </label>
+                        </li>
+                        <li>
+                            <label for="Mother_Board" class="categories">
+                                <input type="checkbox" id= "Mother_Board">
+                                <span class="checkbox"></span>
+                                <span>
+                                    Motherboards
+                                </span>
+                            </label>
+                        </li>
+                    </ul>
+                </form>
+            </aside>
+            <section>
+                <div id="shop-layout">
+                    <div class="item" id="process">
+                        <div class="item-picture-layout">
+                            <a href="moreInfo.html">
+                                <picture class="picture-settings">
+                                    <source media="(max-width: 600px)" 
+                                    srcset="images/intel-core-i9-9900k-36ghz.jpg">
+                                    <img src="images/intel-core-i9-9900k-36ghz.jpg" 
+                                    alt="intel-core-i9-9900k-36ghz">
+                                </picture>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="item" id="mother">
+                        <div class="item-picture-layout">
+                            <a href="moreInfo.html">
+                                <picture class="picture-settings">
+                                    <source media="(max-width: 600px)" 
+                                    srcset="images/ASUS-EX-A320M.jpg">
+                                    <img src="images/ASUS-EX-A320M.jpg" 
+                                    alt="ASUS EX-A320M Gaming AMD Motherboard">
+                                </picture>
+                            </a>
+                        </div>   
+                    </div> 
+            </section>
+        </div>
+    </div>
+    <footer>This website has been created by the Trash company.</footer>
+    <script src="JS/mainJS.js"></script>
+</body>
+</html>
